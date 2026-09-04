@@ -1,6 +1,6 @@
 # IP-SAKTI Sahayak
 
-A real RAG-based Ayurveda & Traditional Knowledge IP assistant for SIH 2024.
+A real RAG-based Ayurveda & Traditional Knowledge IP assistant for SIH 2026.
 
 ## Features
 

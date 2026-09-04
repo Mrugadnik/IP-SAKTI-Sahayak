@@ -14,9 +14,9 @@ A real RAG-based Ayurveda & Traditional Knowledge IP assistant for SIH 2026.
 ### Backend
 - Python + FastAPI
 - ChromaDB (Vector Database)
-- Sentence Transformers (Embeddings)
+- Sentence Transformers (`all-MiniLM-L6-v2`) - Embeddings
 - PyMuPDF (PDF Processing)
-- Groq API (LLM)
+- Groq API (Llama 3) - LLM
 
 ### Frontend
 - React + TypeScript
@@ -112,10 +112,11 @@ The frontend will run on `http://localhost:3000`
 
 - The system only uses retrieved context for answers
 - If evidence is insufficient, it clearly states so
-- No fake sources or hallucinated citations
+- Answers are grounded in retrieved context and source information
+- If sufficient evidence is unavailable, the system states that instead of guessing
 - API keys are stored in `.env` only
-- This is an academic prototype for SIH 2024, not legal advice
+- This is an academic prototype for SIH 2026, not legal advice
 
 ## Disclaimer
 
-IP-SAKTI Sahayak is an academic prototype developed for Smart India Hackathon 2024. The system provides AI-assisted informational guidance based on retrieved documents. Content is for informational purposes only and does not constitute legal advice. Always consult qualified legal professionals for IP matters.
+IP-SAKTI Sahayak is an academic prototype developed for Smart India Hackathon 2026. The system provides AI-assisted informational guidance based on retrieved documents. Content is for informational purposes only and does not constitute legal advice. Always consult qualified legal professionals for IP matters.
